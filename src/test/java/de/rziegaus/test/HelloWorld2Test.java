@@ -22,9 +22,15 @@ class HelloWorld2Test
 	}
 
 	@Test
-	void testGetgGreeting()
+	void testGetGreeting()
 	{
 		assertEquals(HelloWorld2.getGreeting(), "Hello World 2");
+	}
+
+	@Test
+	void testAlwaysTrue()
+	{
+		assertTrue(true);
 	}
 
 }
