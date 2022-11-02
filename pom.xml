@@ -4,9 +4,21 @@
   <artifactId>HelloWorld2</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>HelloWorld2</name>
-  
+ 
   <properties>
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
   </properties>
+  
+  <dependencies>
+  
+	  <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+	  <dependency>
+	    <groupId>org.junit.jupiter</groupId>
+	    <artifactId>junit-jupiter-api</artifactId>
+	    <version>5.9.1</version>
+	    <scope>test</scope>
+	  </dependency>
+
+  </dependencies>
 </project>
