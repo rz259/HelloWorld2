@@ -3,9 +3,14 @@ package de.rziegaus;
 public class HelloWorld2
 {
 
+	public static String getGreeting()
+	{
+	  return "Hello World 2";	
+	}
+	
 	public static void main(String[] args)
 	{
-		System.out.println("Hello World 2, JDK-Version: " + System.getProperty("java.version"));
+		System.out.println(getGreeting() + ": " + System.getProperty("java.version"));
 	}
 
 }
